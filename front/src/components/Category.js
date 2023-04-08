@@ -21,7 +21,7 @@ const Category = () => {
   </li>
 </ul>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 g-4" data-masonry='{"percentPosition": true }' >
+        <div class="row row-cols-1 row-cols-md-4 g-4" >
         <div class="col">
     <div class="card">
       <img src="https://images.pexels.com/photos/2240771/pexels-photo-2240771.jpeg" class="card-img-top" alt="..." />
