@@ -6,6 +6,7 @@
 
 body{
   font-family: monospace;
+  overflow-x: hidden;
 }
 
 #link{
@@ -101,4 +102,9 @@ p{
 
 .item:hover h6{
   opacity: 1;
+}
+
+
+.single-blog{
+  
 }
