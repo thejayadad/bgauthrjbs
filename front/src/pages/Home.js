@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Category from "../components/Category.js"
 import Feature from '../components/Feature'
 import Footer from '../components/Footer'
+import Subscribe from '../components/Subscribe'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Feature />
 
       <Category />
+      <Subscribe />
 <Footer />
 
     </div>
