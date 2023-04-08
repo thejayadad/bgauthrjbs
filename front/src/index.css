@@ -29,3 +29,35 @@ p{
   line-height: 1.9;
 
 }
+
+
+/**CATEGORY POST**/
+.item:hover{
+  transition: .5s;
+}
+.item{
+  position: relative;
+  cursor: pointer;
+}
+
+.item h5{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 15px;
+  opacity: 0;
+}
+.item h6{
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  opacity: 0;
+}
+
+.item:hover h5{
+  opacity: 1;
+}
+
+.item:hover h6{
+  opacity: 1;
+}

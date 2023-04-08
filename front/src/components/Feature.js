@@ -2,7 +2,9 @@ import React from 'react'
 
 const Feature = () => {
   return (
-    <div>Feature</div>
+    <section className='mt-5'>
+      feature
+</section>
   )
 }
 
