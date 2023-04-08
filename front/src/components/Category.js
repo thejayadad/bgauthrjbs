@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 const Category = () => {
   return (
@@ -27,10 +28,13 @@ const Category = () => {
             <p className='blog-meta'>Author <span>Date</span></p>
             <img
 
-              scr="https://images.pexels.com/photos/1150988/pexels-photo-1150988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/2114365/pexels-photo-2114365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt='blogImage'
             />
-
+            <h2>Blog Title</h2>
+            <p className='blog-title'>Blog Details Here</p>
+            <p><Link to="/">See More</Link></p>
+            <span><i class="fa fa-thumbs-up"></i> Likes</span>
             </div>
           </div>
 
